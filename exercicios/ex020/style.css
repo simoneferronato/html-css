@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    background-color: rgb(255, 217, 0);
+} 
+
+.topico {
+    font-weight: bolder;
+}
+body {
+    background-color: #BEA8E6;
+}

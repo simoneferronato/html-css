@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /* Elemento do tipo box-level, mas pode ser transformado em inline, mudando a característica e adicionando display: inline; */
+            
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            text-align: center;
+            border: 10px solid darkslategray;
+            /*
+            esta linha acima é uma shorthand, simplificando todo o conteúdo border:  border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            */
+
+            padding: 10px;
+            /*
+            esta linha acima é uma shorhand, simplificando todo os conteúdo padding:
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+
+            margin: 20px auto 40px auto;
+            /*
+            esta linha acima é uma shorhand, simplificando todo os conteúdo margin:
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            */
+
+            outline: 10px dashed salmon;
+            /* 
+            esta linha acima é uma shorthand simplificando todo o conteúdo outline:
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+
+        }
+
+        a { /* Elemento do tipo inline-level, mas pode ser transformado em block, mudando a característica e adicionando display: block; */
+
+            border: 5px solid red;
+            /*
+            esta linha acima é uma shorthand simplificando todo o conteúdo border:
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;
+            */
+
+            padding: 5px;
+            /* esta linh acima é uma shorthand simplificando todo oconteudo padding:
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            */
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level.</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="https://simoneferronato.github.io/landing-page/">links são exemplos de caixas inline-level.</a>Vamos ver como eles funcionam.</p>
+    
+</body>
+</html>

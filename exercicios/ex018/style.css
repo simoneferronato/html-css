@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'Varsity';
+    src: url('fontes/varsity_regular.ttf') format('truetype');
+    /* Tipos de Format() ver extensão do arquivo, podem ser:
+    - opentype (otf)
+    - truetype (ttl)
+    - embeddad-opentype
+    - truetype-att (Apple Advanced Typography)
+    - svg
+    */
+}
+
+body {
+    font-family: Arial, san-serif;
+}
+
+h1 {
+    font-family: 'Varsity', Times, serif;
+    font-size: 6em;
+    text-align: center;
+    color: brown;
+}
+
+h2 {
+    font-family: 'Varsity', Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    text-align: center;
+    color: rgba(160, 32, 32, 0.774);
+}

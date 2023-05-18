@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* 
+    em HTML é id = em CSS é # 
+    em HTML é class = em CSS é .
+    consigo aplicar mais de uma class a um único elemento
+    também consigo aplicar uma class a um id
+
+*/
+
+body {
+    background-color: rgba(145, 164, 218, 0.795);
+    font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2m;
+    font-weight: bolder;
+    color: rgb(49, 7, 100)
+}
+
+h2 {
+    color: rgb(47, 8, 189);
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+#titulo-principal {
+    background-color: rgb(49, 7, 110);
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+h2.topico {
+    text-align: right;
+}
+
+.basico {
+    color: rgb(13, 112, 86);
+}    
+
+.intermediario {
+    color: rgb(8, 126, 223);
+    
+}
+
+.avancado {
+    color: rgb(194, 5, 5);
+        
+}
+
+.destaque {
+    background-color: rgba(233, 233, 96, 0.753);
+    text-align: center;
+}
+
+.texto {
+    text-align: justify;
+    text-indent: 30px;
+}
