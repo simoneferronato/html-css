@@ -60,7 +60,7 @@ section {
 }
 
 section > p {
-    padding-bottom: 0.1em;
+    padding-bottom: 1em;
 }
 
 section.normal {
@@ -85,7 +85,9 @@ section.imagem > p {
 
 section#img01 {
     background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
     background-position: right center;
+    
     
 }
 
