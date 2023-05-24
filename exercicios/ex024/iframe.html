@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de Iframe</title>
+    <style>
+        iframe {
+            width: 400px;
+            height: auto;
+            border: 5px solid black;
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <p>Acessando o site do 
+        <!-- Tamanho padrão da iframe: 300 x 150px-->
+    <iframe src="https://cursoemvideo.com" frameborder="0" width="300" scrolling="auto">
+        <a href="htts://cursoemviedo.com" target="_blank"></a>
+    </iframe>
+    para aprender programar.
+    </p> 
+    <p>O repositório do Guanabara <iframe src="https://gustavoguanabara.github.io" frameborder="0" width="400" height="300" scrolling="auto">
+        <a href="http://gustavoguanabara.github.cio" target="_blank"></a>
+    </iframe> também é bem legal</p>
+    <p>Testando outros sites</p>
+    <!-- O Goggle não permite que seu site seja colocado como iframe em outros sites-->
+    <iframe src="https://www.google.com/?hl=pt_pt" frameborder="0">
+        [ Seu navegador não suporta iframe ]
+    </iframe>
+</body>
+</html>
