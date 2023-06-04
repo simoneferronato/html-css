@@ -23,7 +23,7 @@ header > h1 {
 span {
     background-color: rgb(84, 22, 79);
     color: white;
-    display: block;
+    width: 100vw;
     text-align: center;
     padding: 10px;
     cursor: pointer;
