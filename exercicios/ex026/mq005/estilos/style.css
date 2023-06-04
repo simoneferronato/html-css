@@ -19,17 +19,18 @@ header > h1 {
     padding: 10px;
     text-align: center;
 }
-
-span {
+    
+i#burguer {
     background-color: rgb(81, 9, 75);
     color: white;
-    width: 100vw;
+    display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 
-span:hover {
+
+i#burguer:hover {
     background-color: rgb(243, 183, 250);
     color: rgb(73, 3, 85);
 }
